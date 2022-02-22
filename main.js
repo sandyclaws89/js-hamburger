@@ -1,8 +1,8 @@
 let HamburgerMenu = document.querySelector('.hamburger-menu');
-let button = document.querySelector('.header-right > a');
+let button = document.querySelector('.fa-bars');
 
 button.addEventListener('click', function() {
-    HamburgerMenu.classList.remove('.header-right > a')
+    HamburgerMenu.classList.toggle('hamburger-menu')
 })
 
 
