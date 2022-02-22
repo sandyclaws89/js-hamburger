@@ -1,7 +1,8 @@
 let HamburgerMenu = document.querySelector('.hamburger-menu');
-let button = document.querySelector('.test');
+let button = document.querySelector('.header-right > a');
+
 button.addEventListener('click', function() {
-    HamburgerMenu.classList.toogle('.test')
+    HamburgerMenu.classList.remove('.header-right > a')
 })
 
 
